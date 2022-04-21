@@ -1,38 +1,53 @@
+![logo](./docs/readme/logo.png) ![PSLIB dobyvatel text](./docs/readme/PSLIB-DOBYVATEL.png)
 # PSLIB DOBYVATEL
+
+![Rozehraná hra](./docs/img/Herni_Mapa.png)
 
 ## Popis hry
 Tato hra funguje přesně jako klasický Dobyvatel, který si určitě pamatujete z dětství. 
 Hra Dobyvatel původně spadala pod TV Nova, ale někde před rokem nebo víc byla původní online PC webová verze stažena a nahradila jí (podle mého názoru) horší verze ve formě mobilní aplikace.
 
 Tu je možné si vyzkoušet zde: https://triviador.com/#cz 
-
 Jinak se dají už najít pouze stará videa na YouTube zachycující tento kus české internetové historie.
-
-![Rozehraná hra](./docs/img/Herni_Mapa.png)
-
-## O tomto projektu
-### Popis
-Tento projekt je v podstatě Dobyvatel akorát napasovaný na naší skvělou školu. Místo otázek z obecných témat jsou zde otázky o škole okolí (celkově hlavně Liberec). Další změnou je herní plán, který představuje mapku školy, která je rozdělená na jednotlivé části, patra budovy A, budovy B, dílny, tělocvična, dílny a další…
-
-![Prázdná mapa](./docs/img/Prazdna_mapa.png)
 
 ### Jak hra funguje
 Ve zkratce, dobyvatel funguje tak, že hrajete proti několika dalším hráčům a odpovídáte na různé kvízové otázky. Za správné odpovědi potom získáte body a území na herní mapě v podobě jednotlivých krajů ČR. Nakonec vyhrává ten, kdo získá nejvíce bodů a obsadí největší území ČR. To samé platí pro naší verzi.
 
-### Provedení
-Původně jsem to zamýšlel jako webovou hru, jako byl dobyvatel původně, ale samozřejmě je možné udělat i mobilní aplikaci případě desktopovou hru. Volba řešení je asi na vás. Každopádně někdo by určitě ocenil aplikaci v Reactu s použitím Styled Components ;) Pro lepší orientaci jsem vytvořil mockup v Adobe XD, ve kterém se dají vyexportovat jednotlivé části designu případě okopírovat barvy atd.
+Více informacní o pravidlech dobyvatele: https://cs.wikipedia.org/wiki/Dobyvatel_(hra)
 
-Co se týče přihlášení, nemyslím si že je nutné. Podle mě by stačilo pouze nějaká volba nicku. Kdyby se pak přihlášení přidávalo dalo by se napojit přes OAuth na Office365 školní účty.
+## O tomto projektu
+Tento projekt je v podstatě Dobyvatel akorát napasovaný na naší skvělou školu. Místo otázek z obecných témat jsou zde otázky o škole a okolí (celkově hlavně Liberec). Další změnou je herní plán, který představuje mapku školy, která je rozdělená na jednotlivé části, patra budovy A, budovy B, dílny, tělocvična, dílny a další… Hráč tedy musí zabírat části naší školy.
+Credit nápadu: Honza Šlégl
+
+![Prázdná mapa](./docs/img/Prazdna_mapa.png)
+
+## Provedení
+- Původně jsem to zamýšlel jako webovou hru, jako byl dobyvatel původně, ale samozřejmě je možné udělat i mobilní aplikaci případě desktopovou hru. Volba řešení je asi na vás. Každopádně někdo by určitě ocenil aplikaci v Reactu s použitím Styled Components ;) 
+- Pro lepší orientaci jsem vytvořil mockup v Adobe XD, ve kterém se dají vyexportovat jednotlivé části designu případě okopírovat barvy atd.
+- Co se týče přihlášení, nemyslím si že je nutné. Podle mě by stačilo pouze nějaká volba nicku. Kdyby se pak přihlášení přidávalo dalo by se napojit přes OAuth na Office365 školní účty.
+- Do hry by bylo možné implementovat nějaký basic chat a případně i ikonky uživatelů.
 
 ## Design
+Design je celkově upravená verze Dobyvatele před redesignem v roce 2016, takže cílem byl ten klasický devadesátkový internet styl.
+![Barevná paleta a fonty](./docs/img/Barevna_paleta.png)
+
 ### Fonty
-V mockupu je primárně použit Google Font Merriweather, a to konkrétně ve velikostech 24, 28, 32, 36 a 48px. Používám většinou bold písmo, ale někde se objeví i normální tloušťka.
+V mockupu je primárně použit Google Font Merriweather, a to konkrétně ve velikostech 24, 28, 32, 36 a 48px. Používám většinou bold písmo, ale někde se objeví i normální tloušťka. Z příkladu by mělo být všechno jasné.
 
 ### Ikony
 Do podkladů jsem přiložil všechny ikony, které používám a to jak ve velké velikosti, tak už přímo zmenšené.
+Většina ikon je ve formátu png, protože jsem vyhovující ikonky nenašel ve vektorové grafice.
+Některé použité ikony:
+
+![Ikona base](./docs/icons/resized_128/castle_icon_155982.png)
+![Ikona base](./docs/icons/resized_128/tower.png)
+![Ikona base](./docs/icons/resized_128/danger.png)
+![Ikona base](./docs/icons/resized_128/back.png)
+![Ikona base](./docs/icons/resized_128/sand-clock.png)
+
 
 ### Paleta barev
-Hlavní barvy hráčů jsou červená, zelená a žlutá. Často také po vzoru dobyvatele používám gradinty.
+Hlavní barvy hráčů jsou červená, zelená a žlutá. Často také po vzoru dobyvatele používám gradienty.
 
 Světlejší verze hráčských barev:
 + ![#CD0F07](https://via.placeholder.com/15/CD0F07?text=+) `#CD0F07` 
